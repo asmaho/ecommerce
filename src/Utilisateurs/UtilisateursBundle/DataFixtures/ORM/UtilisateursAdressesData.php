@@ -20,8 +20,8 @@ class UtilisateursAdressesData extends AbstractFixture implements OrderedFixture
         
         $adresse1 = new UtilisateursAdresses();
         $adresse1->setUtilisateur($this->getReference('utilisateur1'));
-        $adresse1->setNom('amara');
-        $adresse1->setPrenom('amin');
+        $adresse1->setNom('houimel');
+        $adresse1->setPrenom('asma');
         $adresse1->setTelephone('225542222');
         $adresse1->setAdresse('22 rue exepmle exemple');
         $adresse1->setCp('55221');
@@ -38,8 +38,8 @@ class UtilisateursAdressesData extends AbstractFixture implements OrderedFixture
         
         $adresse2 = new UtilisateursAdresses();
         $adresse2->setUtilisateur($this->getReference('utilisateur2'));
-        $adresse2->setNom('amara');
-        $adresse2->setPrenom('amin');
+        $adresse2->setNom('houimel');
+        $adresse2->setPrenom('asma');
         $adresse2->setTelephone('225542222');
         $adresse2->setAdresse('22 rue exepmle exemple');
         $adresse2->setCp('55221');
